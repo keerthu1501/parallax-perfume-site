@@ -85,6 +85,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1.2, ease: [0.25, 0.46, 0.45, 0.94] }}
           viewport={{ once: true, amount: 0.25 }}
+          style={{padding: 20, margin: 20, marginTop: 190}}
           className="w-full max-w-2xl mx-auto bg-white/4 backdrop-blur-3xl border border-white/12 rounded-3xl p-8 md:p-12 lg:p-16 shadow-2xl shadow-yellow-500/15"
         >
           {/* Premium Typography */}
