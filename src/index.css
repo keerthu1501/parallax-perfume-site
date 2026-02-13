@@ -1,0 +1,106 @@
+/* ============================= */
+/* 1. Tailwind Base Setup */
+/* ============================= */
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+/* ============================= */
+/* 2. Global Reset */
+/* ============================= */
+
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+  /* margin-top:10px; */
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #000;
+  color: white;
+  font-family: 'Georgia', serif;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+
+/* ============================= */
+/* 3. Scrollbar Styling (Luxury Feel) */
+/* ============================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8962e;
+}
+
+
+/* ============================= */
+/* 4. Smooth Image Rendering */
+/* ============================= */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* ============================= */
+/* 5. Optional Cinematic Fade Animation */
+/* ============================= */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease forwards;
+}
+
+
+/* ============================= */
+/* 6. Luxury Button Effect */
+/* ============================= */
+
+.luxury-btn {
+  border: 1px solid #d4af37;
+  padding: 12px 32px;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+}
+
+.luxury-btn:hover {
+  background-color: #d4af37;
+  color: black;
+}
