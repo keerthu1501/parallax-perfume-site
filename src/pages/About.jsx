@@ -90,7 +90,7 @@ export default function About() {
 
       {/* ================= BRAND STORY ================= */}
       <section className="py-32 px-6 max-w-5xl mx-auto text-center">
-        <h2 className="text-5xl font-serif mb-10">
+        <h2 className="text-5xl font-serif mb-10" style={{marginTop : "34px"}}>
           The Essence of Luxury
         </h2>
 
