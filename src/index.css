@@ -14,7 +14,7 @@
 
 * {
   margin: 0;
-  padding:0px;
+  padding:0;
   box-sizing: border-box;
   /* margin-top:10px; */
 }
@@ -103,4 +103,9 @@ img {
 .luxury-btn:hover {
   background-color: #d4af37;
   color: black;
+}
+
+button{
+    margin: 12px !important;
+    padding: 12px !important;
 }

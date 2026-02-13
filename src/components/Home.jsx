@@ -256,8 +256,8 @@ const sideImgRef = useRef(null);
     />
 
     {/* Text */}
-    <div className="p-5">
-      <h2 className="pb-3 text-5xl md:text-6xl font-serif mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+    <div className="mb-5">
+      <h2 className="mb-3 text-5xl md:text-6xl font-serif mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
         The Art of Ingredients
       </h2>
 
