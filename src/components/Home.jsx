@@ -293,7 +293,7 @@ const sideImgRef = useRef(null);
       Our Signature Collection
     </h2>
 
-    <div className="grid md:grid-cols-3 gap-16">
+    <div className="grid md:grid-cols-3 gap-16" style={{ padding: "17px" }}>
       {[
         {
           name: "Midnight Oud",
