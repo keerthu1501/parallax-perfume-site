@@ -246,7 +246,7 @@ const sideImgRef = useRef(null);
     />
   </div>
 
-  <div className="max-w-7xl mx-auto px-6 lg:grid lg:grid-cols-2 gap-20 items-center relative z-10">
+  <div className="max-w-7xl mx-auto px-6 lg:grid lg:grid-cols-2 gap-20 items-center relative z-10 m-auto">
     {/* Image */}
     <img
       ref={sideImgRef}
@@ -264,14 +264,14 @@ const sideImgRef = useRef(null);
       <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-12 max-w-lg">
         Top notes dance, heart notes embrace, base notes endure.
         <br className="hidden md:inline" />
-        <span className="text-yellow-400 italic font-serif">
+        <span className="text-yellow-400 italic font-serif mb-10">
           {" "}A symphony for your soul.
         </span>
       </p>
 
       <button
         onClick={() => navigate("/collection")}
-        className="mt-5 px-10 py-4 border-2 border-yellow-400 text-yellow-400 tracking-widest hover:bg-yellow-400 hover:text-black transition duration-500"
+        className="mb-5 px-10 py-4 border-2 border-yellow-400 text-yellow-400 tracking-widest hover:bg-yellow-400 hover:text-black transition duration-500"
       >
         Begin Your Journey
       </button>
