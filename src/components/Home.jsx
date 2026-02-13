@@ -257,7 +257,7 @@ const sideImgRef = useRef(null);
 
     {/* Text */}
     <div>
-      <h2 className="text-5xl md:text-6xl font-serif mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+      <h2 className="pb-3 text-5xl md:text-6xl font-serif mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
         The Art of Ingredients
       </h2>
 
@@ -271,7 +271,7 @@ const sideImgRef = useRef(null);
 
       <button
         onClick={() => navigate("/collection")}
-        className="px-10 py-4 border-2 border-yellow-400 text-yellow-400 tracking-widest hover:bg-yellow-400 hover:text-black transition duration-500"
+        className="mt-5 px-10 py-4 border-2 border-yellow-400 text-yellow-400 tracking-widest hover:bg-yellow-400 hover:text-black transition duration-500"
       >
         Begin Your Journey
       </button>
