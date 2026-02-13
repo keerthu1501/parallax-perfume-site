@@ -253,16 +253,15 @@ const sideImgRef = useRef(null);
       ref={sideImgRef}
       src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=1200&q=90"
       className="w-full h-[500px] md:h-[600px] object-cover rounded-3xl shadow-2xl"
-      alt="" style="padding: 12px;"
-    />
+      alt="Art-incredeient" style={{ padding: "12px" }}/>
 
-    {/* Text */}
+    
     <div>
-      <h2 style="margin-bottom: 12px; margin-top: 52px; padding-left: 16px;" className="text-5xl md:text-6xl font-serif mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+      <h2 style={{ marginBottom: "12px", marginTop: "52px", paddingLeft: "16px" }} className="text-5xl md:text-6xl font-serif mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
         The Art of Ingredients
       </h2>
 
-      <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-12 max-w-lg"  style="padding-left: 22px;">
+      <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-12 max-w-lg" style={{ padding: "22px" }} >
         Top notes dance, heart notes embrace, base notes endure.
         <br className="hidden md:inline" />
         <span className="text-yellow-400 italic font-serif mb-10">
